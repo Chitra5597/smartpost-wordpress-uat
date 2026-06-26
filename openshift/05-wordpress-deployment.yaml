@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: wordpress:6.4.1-php8.1-apache
+        image: image-registry.openshift-image-registry.svc:5000/chitrafegde55-dev/wordpress-build:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80

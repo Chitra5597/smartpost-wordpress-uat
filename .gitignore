@@ -4,19 +4,12 @@ mysql-data/
 # Database backups
 *.sql
 
-# WordPress uploads (optional)
-wordpress/wp-content/uploads/
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
+# Zip files
+*.zip
 
 # IDE
 .vscode/
 .idea/
 
-# Git
-.git
+# Logs
+*.log
