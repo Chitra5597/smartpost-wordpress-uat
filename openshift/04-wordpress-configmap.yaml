@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-config
+data:
+  APP_ENV: "uat"
+  COMPANY_NAME: "SmartPost"

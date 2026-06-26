@@ -1,0 +1,138 @@
+/*
+Theme Name: SmartPost Enterprise Theme
+Theme URI: https://smartpost.com
+Author: SmartPost Team
+Description: Legacy enterprise WordPress theme.
+Version: 1.0
+Text Domain: smartpost
+*/
+
+/*
+Theme Name: SmartPost Enterprise Theme
+Author: SmartPost Team
+Version: 1.0
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+    background: #d52b1e;
+    color: white;
+    padding: 25px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+.site-header h1 {
+    font-size: 38px;
+}
+
+.site-header p {
+    opacity: .8;
+}
+
+/* Navigation */
+.main-menu {
+    background: #1f2937;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu li {
+    padding: 18px 25px;
+}
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Main Content */
+.content-area {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.content-area h2 {
+    color: #d52b1e;
+    margin-bottom: 20px;
+}
+
+.content-area article {
+    margin-top: 20px;
+}
+
+.content-area p {
+    margin-bottom: 15px;
+}
+
+
+/* Buttons */
+button,
+input[type="submit"] {
+    background: #d52b1e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #a51e14;
+}
+
+
+/* Footer */
+.site-footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+
+/* Admin Bar Adjustment */
+.admin-bar .site-header {
+    margin-top: 32px;
+}
+
+
+/* Mobile Responsive */
+@media(max-width:768px) {
+
+    .content-area {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+    }
+}

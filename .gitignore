@@ -1,0 +1,22 @@
+# MySQL data
+mysql-data/
+
+# Database backups
+*.sql
+
+# WordPress uploads (optional)
+wordpress/wp-content/uploads/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git
