@@ -22,7 +22,11 @@ spec:
         imagePullPolicy: Always
 
         ports:
-        - containerPort: 80
+        - containerPort: 8080
+
+        envFrom:
+        - configMapRef:
+            name: wordpress-config
 
         env:
         - name: WORDPRESS_DB_HOST
@@ -39,7 +43,3 @@ spec:
 
         - name: WORDPRESS_DB_NAME
           value: smartpost
-
-        envFrom:
-        - configMapRef:
-            name: wordpress-config
