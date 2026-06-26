@@ -7,5 +7,4 @@ RUN chgrp -R 0 /var/www/html /var/run/apache2 /var/log/apache2 /var/lock/apache2
 
 EXPOSE 8080
 
-ENTRYPOINT []
-CMD ["apache2-foreground"]
+ENTRYPOINT ["apache2-foreground"]
